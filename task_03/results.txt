@@ -1,0 +1,6 @@
+KMP: 8.04 sec, matches 1175
+Z-function: 27.36 sec, matches 1175
+Prefix-function: 16.03 sec, matches 1175
+Rabin-Karp (single): 31.74 sec, matches 1175
+Rabin-Karp (multi): 0.34 sec, matches 1175
+Aho-Corasick: 0.04 sec, matches 1175
