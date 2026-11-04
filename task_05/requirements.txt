@@ -1,0 +1,12 @@
+--index-url https://pypi.org/simple
+--find-links https://download.pytorch.org/whl/cpu/torch/
+--find-links https://download.pytorch.org/whl/cpu/torchvision/
+torch==2.11.0+cpu; platform_system != "Darwin"
+torch==2.11.0; platform_system == "Darwin"
+torchvision==0.26.0+cpu; platform_system != "Darwin"
+torchvision==0.26.0; platform_system == "Darwin"
+
+docling>=2.0,<3.0
+langchain-text-splitters>=0.3,<2.0
+sentence-transformers>=3.0,<6.0
+numpy>=1.26,<3.0
